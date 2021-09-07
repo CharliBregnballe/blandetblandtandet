@@ -1,10 +1,10 @@
-
-import './App.css';
+import React from "react";
+import "./styles/Main.scss"
 
 function App() {
   return (
     <div className="App">
-      <h1>Blandet blandt andet</h1>
+      <h1 className="Header">Blandet blandt andet</h1>
     </div>
   );
 }
